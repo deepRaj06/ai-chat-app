@@ -1,0 +1,38 @@
+*********************************************HARI OHM*********************************
+
+A. Installation:
+   	npx create-expo-app@latest
+	cd ai-chat-app
+	npm run android
+	npm run ios
+	npm run web
+    npm install axios
+    npm install @react-navigation/native
+    npx expo install react-native-screens react-native-safe-area-context
+    npm install @react-navigation/native-stack
+    
+B. Tech Stack Used:
+
+    1. React Native Expo - https://docs.expo.dev/
+        npx create-expo-app@latest
+        cd ai-chat-app
+        npm run android
+        npm run ios
+        npm run web
+        
+    2. React Navigation
+    3. Google AI --> Palm API
+    4. Next.JS --> Rest API part and deploy it on vercel
+
+C. Setup Next.js and Bard API:
+
+    a. Next.js - https://nextjs.org/
+        Create a new folder under React Native to create BARD API
+
+D. Setup API call in react native project:
+
+    a. GlobalApi.js
+
+E. Calling API call:
+
+    a. ChatScreen.js
